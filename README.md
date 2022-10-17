@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-iiD6R6Ib7l)
-- Live Site URL: [Vercel](https://profilecardcomponent-three.vercel.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-G2JWQ6r_iB)
+- Live Site URL: [Vercel](https://socialproofsection-five.vercel.app/)
 
 ## My process
 
