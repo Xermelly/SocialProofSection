@@ -1,2 +1,137 @@
 @import url(./components.css);
 @import url(./global.css);
+
+.container {
+  margin: auto;
+  max-width: 1440px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.review-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.text-info {
+  max-width: 50ch;
+  text-align: left;
+}
+.text-info h1 {
+  font-size: 3.5rem;
+  padding-bottom: 30px;
+}
+.rated-star {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  background-color: var(--lightgrayish-magenta);
+  border-radius: 10px;
+  justify-content: start;
+  align-items: center;
+}
+.stars {
+  display: flex;
+  gap: 10px;
+}
+.rated-star.row-1 {
+  margin-right: 90px;
+}
+.rated-star.row-2 {
+  margin-right: 40px;
+  margin-left: 60px;
+}
+.rated-star.row-3 {
+  margin-left: 120px;
+}
+.rated-star p {
+  padding-left: 20px;
+}
+.user-review {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.user-data {
+  max-width: 240px;
+  column-gap: 20px;
+  background-color: var(--verydark-magenta);
+  border-radius: 10px;
+  padding: 30px;
+}
+.user-info {
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  grid-template-areas:
+    "a b"
+    "a c";
+  justify-content: start;
+  align-items: center;
+}
+.user-info h2 {
+  height: 15px;
+  font-size: 1rem;
+}
+.user-data img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  grid-area: a;
+}
+.user-data.col-2 {
+  margin-top: 30px;
+}
+.user-data.col-3 {
+  margin-top: 60px;
+}
+@media (max-width: 800px) {
+  .container {
+    margin: auto 30px;
+  }
+  .review-content {
+    margin-top: 60px;
+    grid-template-columns: auto;
+  }
+  .text-info {
+    text-align: center;
+  }
+  .rated-star.row-1,
+  .rated-star.row-2,
+  .rated-star.row-3 {
+    margin: 10px 0;
+  }
+  .user-review {
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+  .user-data {
+    max-width: 100%;
+  }
+  .user-data.col-2,
+  .user-data.col-3 {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .text-info h1 {
+    font-size: 2.5rem;
+  }
+  .rated-star {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+}

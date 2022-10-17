@@ -1,0 +1,34 @@
+:root {
+  --verydark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --darkgrayish-magenta: hsl(303, 10%, 53%);
+  --lightgrayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --font-league-spartan-400: 400 1rem/1 "League Spartan", sans-serif;
+  --font-league-spartan-500: 500 1rem/1 "League Spartan", sans-serif;
+  --font-league-spartan-700: 700 1rem/1 "League Spartan", sans-serif;
+}
+.color-vd-magenta {
+  color: var(--verydark-magenta);
+}
+.color-soft-pink {
+  color: var(--soft-pink);
+}
+.color-dg-magenta {
+  color: var(--darkgrayish-magenta);
+}
+.color-lg-magenta {
+  color: var(--lightgrayish-magenta);
+}
+.color-white {
+  color: var(--white);
+}
+.font-league-spartan-400 {
+  font: var(--font-league-spartan-400);
+}
+.font-league-spartan-500 {
+  font: var(--font-league-spartan-500);
+}
+.font-league-spartan-700 {
+  font: var(--font-league-spartan-700);
+}
